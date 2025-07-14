@@ -249,7 +249,7 @@ function App() {
         <div className="mt-4 flex flex-col sm:flex-row items-center justify-center gap-6 text-white text-base">
           {/* Instagram */}
           <a
-            href="https://instagram.com/YOUR_INSTAGRAM"
+            href="https://www.instagram.com/golanella.25?igsh=MXAzaGJvZDJvdm01cw=="
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 hover:text-pink-500 transition"
@@ -265,12 +265,12 @@ function App() {
             className="flex items-center gap-2 hover:text-green-400 transition"
           >
             <Phone size={20} />
-            +972-50-123-4567
+            +972-526919557
           </a>
 
           {/* Waze */}
           <a
-            href="https://waze.com/ul?ll=32.123456,35.123456&navigate=yes"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 hover:text-blue-400 transition"
