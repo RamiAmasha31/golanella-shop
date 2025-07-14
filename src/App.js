@@ -155,8 +155,8 @@ function App() {
       >
         {selectedCategory === null ? (
           <div
-            style={{ paddingTop: stickyHeight * 2 }}
-            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-6xl px-6 mx-auto justify-items-center my-6"
+            style={{ paddingTop: stickyHeight }}
+            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-6xl px-6 mx-auto justify-items-center  "
           >
             {CATEGORIES.map((cat) => (
               <div
@@ -178,8 +178,8 @@ function App() {
           </div>
         ) : (
           <div
-            className="w-full max-w-6xl px-6 mx-auto my-6"
-            style={{ paddingTop: stickyHeight * 2 }}
+            className="w-full max-w-6xl px-6 mx-auto "
+            style={{ paddingTop: stickyHeight }}
           >
             <button
               onClick={() => {
