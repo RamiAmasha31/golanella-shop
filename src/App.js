@@ -10,32 +10,32 @@ const CATEGORIES = [
   {
     key: "desserts",
     label: { he: "קינוחים", en: "Desserts" },
-    image: "/images/category/desserts.jpg",
+    image: "/images/desserts.jpg",
   },
   {
     key: "crepe",
     label: { he: "קרפ", en: "Crepe" },
-    image: "/images/category/crepe.jpg",
+    image: "/images/crepe.jpg",
   },
   {
     key: "pancake",
     label: { he: "פנקייק", en: "Pancake" },
-    image: "/images/category/pancake.jpg",
+    image: "/images/pancake.jpg",
   },
   {
     key: "fashafesh",
     label: { he: "פשפיש", en: "Fashafesh" },
-    image: "/images/category/fashafesh.jpg",
+    image: "/images/fashafesh.jpg",
   },
   {
     key: "hotDrinks",
     label: { he: "שתיה חמה", en: "Hot Drinks" },
-    image: "/images/category/hotdrinks.jpg",
+    image: "/images/hotdrinks.jpg",
   },
   {
     key: "coldDrinks",
     label: { he: "שתיה קרה", en: "Cold Drinks" },
-    image: "/images/category/coldDrinks.jpg",
+    image: "/images/coldDrinks.jpg",
   },
 ];
 
