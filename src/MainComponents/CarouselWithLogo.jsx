@@ -15,7 +15,7 @@ export default function CarouselWithLogo({ language }) {
         {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((num) => (
           <SwiperSlide key={num}>
             <img
-              src={`/images/cover/${num}.jpg`}
+              src={`/images/${num}.jpg`}
               alt={`Slide ${num}`}
               className="w-full h-full object-cover opacity-40"
             />
